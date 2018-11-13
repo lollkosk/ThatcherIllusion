@@ -7,4 +7,4 @@ This app was designed to be an exhibit on the [Illusorium Exhibition](http://kla
 
 ## Requirements
 
-To successfully run and biuld the project you will need OpenCV and JavaMail JARs in `lib` folder and the OpenCV DLL file for runtime. Additionally, the app uses haar cascade files from OpenCV that should be in `cascades` folder. Finally, the app needs [SMTP settings](smtp.properties) to be able to send emails. Other options for the app are stored in [config.properties](config.properties).
+To successfully run and build the project you will need OpenCV and JavaMail JARs in `lib` folder and the OpenCV DLL file for runtime. Additionally, the app uses haar cascade files from OpenCV that should be in `cascades` folder. Finally, the app needs [SMTP settings](smtp.properties) to be able to send emails. Other options for the app are stored in [config.properties](config.properties).
