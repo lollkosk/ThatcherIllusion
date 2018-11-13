@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-Aug-2016, 21:08:53
+    Author     : Marek Zuzi
+*/
+#image_container {
+    width: 5px;
+    height: 5px;
+}
+
+#image_container, #controls_container {
+    -fx-background-color: aliceblue;
+}
+
+#AnchorPane {
+    -fx-effect: dropshadow(gaussian, aliceblue, 10, 0.8, 0, 0);
+}

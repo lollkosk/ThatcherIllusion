@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" id="AnchorPane" fx:controller="javafxdemo.ResultPanelController" prefWidth="800" minWidth="800" maxWidth="800">
+    <HBox id="image_container" prefWidth="800">
+        <ImageView id="imview_left" fitWidth="400" preserveRatio="true" ></ImageView>
+        <ImageView id="imview_right" fitWidth="400" preserveRatio="true" ></ImageView>
+    </HBox>
+    <VBox id="controls_container" prefWidth="800">
+        <padding>
+            <Insets top="8"></Insets>
+        </padding>
+        <Label fx:id="label_description" text="Enter your e-mail address if you want to have your picture sent to you." alignment="CENTER" maxWidth="Infinity"></Label> 
+        <TextField fx:id="text_email" prefWidth="300" minWidth="300" maxWidth="300" translateX="250" onAction="#onEnter" ></TextField>
+        <HBox maxWidth="550" alignment="CENTER_RIGHT" >
+            <padding>
+                <Insets top="8" bottom="8" left="0" right="0"></Insets>
+            </padding>
+        </HBox>
+    </VBox>
+    
+    <stylesheets>
+        <URL value="@panel.css"/>
+    </stylesheets>
+</VBox>
