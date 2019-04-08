@@ -1,5 +1,6 @@
 # ThatcherIllusion
-Simple app developed for an expo of optical illusions
+
+Developed in 2016 for an expo of optical illusions organized by Czech Academy of Sciences.
 
 This app is based on JavaFX and OpenCV and performs real-time face detection via haar cascade filters. Subsequently it detects eyes and mouth in the face and if all parts are detected, the app creates a [Margaret Thatcher Illusion](https://www.theguardian.com/science/head-quarters/2016/sep/19/the-thatcher-illusion-are-faces-special) from this by flipping the eyes and mouth upside down.
 
